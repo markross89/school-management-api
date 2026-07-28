@@ -1,8 +1,8 @@
-﻿# School Management API
+# School Management API
 
-RESTful API do zarządzania szkołą (studentami, nauczycielami, kursami i ocenami) zbudowane w oparciu o Java 21 oraz Spring Boot 3 / 4.
+A RESTful API for school management (students, teachers, courses, and grades) built with Java 21 and Spring Boot 3 / 4.
 
-## 🛠️ Stos technologiczny (Tech Stack)
+## 🛠️ Tech Stack
 * **Language:** Java 21
 * **Framework:** Spring Boot 4.x
 * **Database:** MySQL 8.0
@@ -13,17 +13,20 @@ RESTful API do zarządzania szkołą (studentami, nauczycielami, kursami i ocena
 
 ---
 
-## 🚀 Jak uruchomić projekt lokalnie?
+## 🚀 Getting Started
 
-### Wymagania wstępne
-* Zainstalowany **Docker** oraz **Docker Compose**
-* Zainstalowany **JDK 21** oraz **Maven**
+### Prerequisites
+* **Docker** & **Docker Compose** installed
+* **JDK 21** & **Maven** installed
 
-### 1. Zmienne środowiskowe
-Stwórz plik `.env` w głównym katalogu projektu na podstawie szablonu: .env.example
+### 1. Set environment variables
+Create a `.env` file in the root directory based on the example template: .env.example 
 
-### 2. Uruchom docker-compose: docker compose up -d
+### 2. Start database container
+run: docker compose up -d
 
-### 3. Uruchom aplikacje: ./mvnw spring-boot:run
+### 3. Start application
+run: ./mvnw spring-boot:run
 
-### 4. Dokumentacja dostępna po uruchomieniu tutaj: 👉 http://localhost:8080/swagger-ui/index.html
+### 4. API documentation
+👉 http://localhost:8080/swagger-ui/index.html
