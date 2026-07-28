@@ -20,7 +20,7 @@ A RESTful API for school management (students, teachers, courses, and grades) bu
 * **JDK 21** & **Maven** installed
 
 ### 1. Set environment variables
-Create a `.env` file in the root directory based on the example template: .env.example 
+Create a `.env` file in the root directory based on the example template `.env.example` 
 
 ### 2. Start database container
 run: docker compose up -d
