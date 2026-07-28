@@ -1,6 +1,6 @@
 # School Management API
 
-A RESTful API for school management (students, teachers, courses, and grades) built with Java 21 and Spring Boot 3 / 4.
+A RESTful API for school management (students, teachers, courses, and grades) built with Java 21 and Spring Boot 4.
 
 ## 🛠️ Tech Stack
 * **Language:** Java 21
