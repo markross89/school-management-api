@@ -23,10 +23,10 @@ A RESTful API for school management (students, teachers, courses, and grades) bu
 Create a `.env` file in the root directory based on the example template `.env.example` 
 
 ### 2. Start database container
-run: docker compose up -d
+`docker compose up -d`
 
 ### 3. Start application
-run: ./mvnw spring-boot:run
+`./mvnw spring-boot:run`
 
 ### 4. API documentation
 👉 http://localhost:8080/swagger-ui/index.html
