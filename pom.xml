@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.roszak89</groupId>
-	<artifactId>school_managment_api</artifactId>
+	<artifactId>school-managment-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
+	<name>school-managment-api</name>
 	<description/>
 	<url/>
 	<licenses>
