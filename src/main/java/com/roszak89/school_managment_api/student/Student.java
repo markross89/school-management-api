@@ -40,5 +40,5 @@ public class Student {
     protected void onCreate() {
         this.createdAt = LocalDateTime.now();
     }
-    
+
 }
